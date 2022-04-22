@@ -36,7 +36,7 @@ export const Login = ()=>{
         <div className="login">
             <h1>Admin Login</h1>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="email" placeholder="Enter Email Address"/><br></br>
-            <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="password" placeholder="Enter Password"/><br></br>
+            <input onChange={(e)=>{inputHandle(e)}} type="password" name="" id="password" placeholder="Enter Password"/><br></br>
             <button onClick={()=>{handleSubmit()}}>LOGIN</button>
            
         </div></>
