@@ -26,7 +26,7 @@ export const Addteacher  = ()=>{
     }
     return (
         <div className="addteacher">
-            <h1>Add teachers</h1>
+            <h1>Add Faculty Members</h1>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="name" placeholder="name" /><br></br>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="address" placeholder="address" /><br></br>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="gender" placeholder="gender"/><br></br>

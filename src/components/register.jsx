@@ -24,7 +24,7 @@ export const Signup = ()=>{
      }
     return (
         <div className="signup">
-            <h1>Signup</h1>
+            <h1>ADD MORE ADMINS</h1>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="name" placeholder="name" /><br></br>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="email" placeholder="email"/><br></br>
             <input onChange={(e)=>{inputHandle(e)}} type="text" name="" id="password" placeholder="Password"/><br></br>

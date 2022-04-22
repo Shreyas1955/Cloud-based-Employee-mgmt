@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
+import img1 from "../components/logo.png"
 
 
 export const Home = ()=>{
@@ -41,8 +42,23 @@ const handlefilterwomen = ()=>{
 }
 
     return (
-        <div>
-          <button onClick={()=>{navigate("/teachers")}}>ADD TEACHERS</button><br></br>
+
+
+          <>
+          <div className="logodiv">
+        <div className="log">
+            <img src={img1}></img>
+        </div>
+        <div className="heading">
+        <h1> Lokmanya Tilak College Of Engineering</h1>
+        </div>
+          </div>
+          <div className="navbar"></div>
+
+        <div class="home">
+            
+        
+          <button onClick={()=>{navigate("/teachers")}}>ADD TEACHERS</button>
           <button onClick={()=>{navigate("/register")}}>ADD ADMINS</button><br></br>
           <h3>SORT BY AGE</h3>
           <button onClick={handlesorthtl}>High To Low</button>
@@ -75,6 +91,6 @@ const handlefilterwomen = ()=>{
           </table>
          
           </div>
-        </div>
+        </div></>
     )
 }
